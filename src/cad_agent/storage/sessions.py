@@ -1,5 +1,7 @@
 """SQLite transcript, project facts and an operation journal independent of checkpoints."""
 
+from __future__ import annotations
+
 import json
 import os
 import sqlite3

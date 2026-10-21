@@ -2,8 +2,6 @@
 
 import math
 
-from cad_agent.domain.specifications import BlockSpec
-
 
 def check_reference_pocket_vertices(points: list[tuple[float, float, float]]) -> bool:
     """Check the exact corner set of our axis-aligned reference task in metres.
@@ -28,13 +26,3 @@ def check_reference_pocket_vertices(points: list[tuple[float, float, float]]) ->
             return False
         remaining.remove(match)
     return not remaining
-
-
-def check_block_volume(spec: BlockSpec, measured_volume_m3: float) -> bool:
-    """Compare an independently measured volume to the block specification."""
-    return math.isfinite(measured_volume_m3) and math.isclose(
-        measured_volume_m3,
-        spec.expected_volume_m3,
-        rel_tol=1e-6,
-        abs_tol=0.0,
-    )

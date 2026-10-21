@@ -111,7 +111,8 @@ bounded workers; checkpoints contain plain data, never COM handles.
 React source is in ui/. `npm run dev` serves UI development assets, but the Python
 bridge exists only inside pywebview; a standalone browser stays in connecting
 state. Run `npm test`, `npm run format:check` and `npm run build`, plus Python
-checks and package build. CI checks both Python 3.11 and 3.14 on Windows.
+checks and package build. Run those checks locally on Python 3.11 or newer;
+the project has no hosted continuous integration.
 
 Tests cover sessions, isolation, approvals, declines, cancellation, operation
 replay/crash uncertainty, dynamic tool routing, standalone CAM provenance,

@@ -27,7 +27,10 @@ where = ["src"]
 "cad_agent.desktop" = ["assets/*", "assets/static/*"]
 
 [project.optional-dependencies]
-dev = ["ruff>=0.11,<1", "build>=1,<2"]
+# Official SDKs for the API providers. The default Codex workspace handoff makes
+# no API call, so these stay optional and are imported lazily.
+api = ["anthropic>=1.17,<2", "openai>=3.35,<4", "openrouter>=1.3,<2"]
+dev = ["ruff>=0.11,<1", "build>=1,<2", "cad-agent[api]"]
 desktop = ["pywebview>=6,<8"]
 
 [tool.ruff]

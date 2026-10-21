@@ -15,10 +15,12 @@ src/cad_agent/
     agent_tools.py          Typed extensible tool registry
     prompts.py              Packaged context loading
   domain/
-    specifications.py       Engineering specifications and unit conventions
+    agent.py                Serializable agent decisions and graph state
+    inputs.py               Attachment and visual input contracts
+    cam.py                  Generated-script to inspection artifact contract
   integrations/
     solidworks.py           COM connection and member access
-    providers/adapters.py   OpenAI, Claude, OpenRouter and Codex handoff
+    providers/adapters.py   Official vendor SDK clients and the Codex handoff
   execution/
     runner.py               Trusted script child process and timeout handling
   storage/
@@ -47,8 +49,10 @@ from interrupted writes. The workflow is not concurrency-safe: use one process
 and one SolidWorks job at a time. A process crash while executing requires manual
 inspection of application and job state before recovery.
 
-Provider HTTP calls use fixed endpoints and timeouts. Codex uses an interactive
-file handoff through an existing session. Models and keys are not hard-coded.
+API providers use their official Python SDKs with a finite timeout and automatic
+retries disabled, so a refused or truncated generation surfaces for repair instead
+of being silently reissued. Codex uses an interactive file handoff through an
+existing session. Models and keys are not hard-coded.
 API providers receive packaged text context and optional reference text/images or
 sampled video frames; they cannot browse CHM help or inspect SolidWorks directly.
 Native parts stay local and edits use new copies. Streaming and retrieval are

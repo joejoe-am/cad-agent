@@ -48,11 +48,6 @@ class DesktopAPI:
             self._engine.delete(session_id)
         return True
 
-    def rename_session(self, session_id, title):
-        if not title.strip():
-            raise ValueError("Session title cannot be empty.")
-        self._engine.store.update(session_id, title=title.strip()[:120])
-
     def send_message(self, session_id, text, files=None):
         return self._launch(session_id, lambda: self._engine.submit(session_id, text, files))
 

@@ -23,7 +23,7 @@ cd ui
 npm ci
 npm run build
 cd ..
-.\.venv\Scripts\python.exe -m pip install -e ".[desktop,dev]"
+.\.venv\Scripts\python.exe -m pip install -e ".[api,desktop,dev]"
 .\.venv\Scripts\python.exe -m cad_agent gui
 ```
 
@@ -37,13 +37,14 @@ Use Python 3.11+ (64-bit Windows for SolidWorks):
 
 ```powershell
 py -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -e ".[dev]"
+.\.venv\Scripts\python.exe -m pip install -e ".[api,dev]"
 .\.venv\Scripts\python.exe -m cad_agent providers
 ```
 
 Run commands inside this workspace, or provide `--root PATH`. The CLI can also
 find a workspace through `CAD_AGENT_WORKSPACE`. Configure models in providers.toml
-and credentials in environment variables. Codex mode requires no API key.
+and credentials in environment variables. Codex mode requires no API key;
+omit the `api` extra if you only use the workspace handoff.
 
 ## Start a task
 

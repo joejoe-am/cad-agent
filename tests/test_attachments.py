@@ -9,6 +9,7 @@ from types import SimpleNamespace
 from unittest.mock import patch
 
 from PIL import Image
+from test_providers import Recorder, anthropic_message, openai_response, openrouter_completion
 
 from cad_agent.application import attachments as a
 from cad_agent.application import workflow as w
@@ -180,34 +181,26 @@ class VisualProviderTests(unittest.TestCase):
             encoded = base64.b64encode(image.read_bytes()).decode("ascii")
             result = json.dumps(dict(summary="fixture", code="pass"))
             responses = {
-                "openai": dict(
-                    status="completed",
-                    output=[dict(type="message", content=[dict(type="output_text", text=result)])],
-                ),
-                "anthropic": dict(stop_reason="end_turn", content=[dict(type="text", text=result)]),
-                "openrouter": dict(choices=[dict(finish_reason="stop", message=dict(content=result))]),
+                "openai": openai_response(result),
+                "anthropic": anthropic_message(result),
+                "openrouter": openrouter_completion(result),
             }
             for name, response in responses.items():
                 with self.subTest(provider=name), patch.dict("os.environ", {"FIXTURE_KEY": "fake"}):
-                    calls = []
-
-                    def transport(*args):
-                        calls.append(args)
-                        return response
-
+                    client = Recorder(response)
                     provider = APIProvider(
                         name,
                         ProviderConfig(model="fixture", api_key_env="FIXTURE_KEY", supports_images=True),
-                        transport,
+                        lambda *args, client=client: client,
                     )
                     provider.generate(
                         "system", "task", images=[VisualInput(path=image, label="Video near 2 seconds")]
                     )
-                    payload = calls[0][2]
+                    request = client.calls[0]
                     content = (
-                        payload["input"][0]["content"]
+                        request["input"][0]["content"]
                         if name == "openai"
-                        else payload["messages"][-1]["content"]
+                        else request["messages"][-1]["content"]
                     )
                     self.assertIn("Video near 2 seconds", json.dumps(content))
                     if name == "anthropic":
@@ -221,7 +214,7 @@ class VisualProviderTests(unittest.TestCase):
                         self.assertTrue(content[-1]["image_url"]["url"].endswith(encoded))
 
     def test_images_never_silently_dropped_for_text_only_model(self):
-        provider = APIProvider("openai", ProviderConfig(), lambda *args: self.fail("Network called"))
+        provider = APIProvider("openai", ProviderConfig(), lambda *args: self.fail("Client constructed"))
         with self.assertRaisesRegex(ProviderError, "supports_images"):
             provider.generate(
                 "system", "task", images=[VisualInput(path=Path("unread.jpg"), label="fixture")]

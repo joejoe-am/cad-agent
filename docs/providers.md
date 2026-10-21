@@ -7,12 +7,24 @@ connection to this chat. Codex login credentials are not read or reused.
 All four providers support both CAD and linked PowerMill CAM generation through
 the same response format. See [CAD-to-CAM workflow](cad-to-cam.md) for CAM commands.
 
-| Provider | Interface | Credentials |
-| --- | --- | --- |
-| codex | CODEX_TASK.md and response.json | None |
-| openai | Responses REST API | OPENAI_API_KEY |
-| anthropic | Claude Messages REST API | ANTHROPIC_API_KEY |
-| openrouter | Chat Completions REST API | OPENROUTER_API_KEY |
+| Provider | Interface | Package | Credentials |
+| --- | --- | --- | --- |
+| codex | CODEX_TASK.md and response.json | none | None |
+| openai | Responses API | `openai` | OPENAI_API_KEY |
+| anthropic | Claude Messages API | `anthropic` | ANTHROPIC_API_KEY |
+| openrouter | Chat completions | `openrouter` | OPENROUTER_API_KEY |
+
+All three API providers use their vendors' official Python SDKs. Install them with
+the `api` extra; the default Codex handoff needs none of them:
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install -e ".[api]"
+```
+
+A provider configured without its SDK installed reports the install command rather
+than a traceback. Packages are imported lazily, so Codex-only workspaces never load
+them. OpenRouter's client is generated from its OpenAPI description and uses its own
+error hierarchy and millisecond timeouts; the adapter normalises both.
 
 Edit providers.toml to select a default and a model available in your account.
 API model IDs are deliberately blank. Set keys in process environment variables;
@@ -70,9 +82,14 @@ custom key variables and other secrets are not isolated. Review code before use.
 Timeouts do not guarantee cancellation of ongoing SolidWorks COM operations.
 Run one CAD job at a time.
 
-API adapters use fixed HTTPS endpoints, finite timeouts and no automatic retries.
-Mocked protocol tests cover all providers. Live requests require your credentials
-and model access and have not been tested in this workspace.
+SDK clients are built with `max_retries=0` and the configured `timeout_seconds`.
+Retrying a generation automatically would hide a refusal or a truncated script, so a
+failed request is reported for explicit repair instead. Provider exceptions are mapped
+to a single error type and never carry response bodies into logs or prompts.
+
+Tests drive the adapters with recorded clients that return real SDK response models,
+so request shape and response parsing are checked against the vendors' own schemas.
+Live requests require your credentials and model access and have not been tested here.
 
 ## Official references
 
