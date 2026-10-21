@@ -1,0 +1,37 @@
+﻿[
+    {
+        "name":  "apihelp.chm",
+        "bytes":  69298,
+        "sha256":  "1227162D475491BBC69DE048BDA875529C4769204898EF3BE459EDF65D16B6C7",
+        "source":  "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\api\\apihelp.chm",
+        "acquired_at_utc":  "2026-10-19T17:56:38.4629706Z"
+    },
+    {
+        "name":  "sldworksapi.chm",
+        "bytes":  27677743,
+        "sha256":  "3A46AF7F0C11E958661BEECC22158FEDC360939193F5D967182724C9DDBEC24E",
+        "source":  "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\api\\sldworksapi.chm",
+        "acquired_at_utc":  "2026-10-19T17:56:38.5206708Z"
+    },
+    {
+        "name":  "sldworksapiprogguide.chm",
+        "bytes":  551547,
+        "sha256":  "C29BF2F3F547A3182F73B1FADFE3A7BE67615F1D8CB7CBC466E005945A6F1343",
+        "source":  "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\api\\sldworksapiprogguide.chm",
+        "acquired_at_utc":  "2026-10-19T17:56:38.5261815Z"
+    },
+    {
+        "name":  "swconst.chm",
+        "bytes":  7807469,
+        "sha256":  "D9227D92ABC44BC964D897641352A2F4EFE984453D28C14A4364008A14BF3300",
+        "source":  "C:\\Program Files\\SOLIDWORKS Corp\\SOLIDWORKS\\api\\swconst.chm",
+        "acquired_at_utc":  "2026-10-19T17:56:38.5500143Z"
+    },
+    {
+        "name":  "SWObjectModel.pdf",
+        "bytes":  2983383,
+        "sha256":  "F1016500B64E9F81E395EF0F60368408C3736196FEA1E6BDBCB061782A91D94C",
+        "source":  "https://help.solidworks.com/2025/english/api/sldworksapi/SWObjectModel.pdf",
+        "acquired_at_utc":  "2026-10-19T17:56:38.5598742Z"
+    }
+]

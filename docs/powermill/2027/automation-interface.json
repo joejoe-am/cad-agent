@@ -1,0 +1,5686 @@
+{
+  "source": "C:\\Program Files\\Autodesk\\PowerMill 2027\\sys\\exec64\\pmill.exe",
+  "library_description": "PowerMILL 2027.000 Type Library",
+  "generated_at_utc": "2026-10-19T19:20:22.005469+00:00",
+  "interfaces": [
+    {
+      "name": "Boundaries",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_Boundaries",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "Boundary",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "ParameterString",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Value"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Value"
+        },
+        {
+          "name_and_arguments": [
+            "Value"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 4,
+          "description": "property Value"
+        },
+        {
+          "name_and_arguments": [
+            "Expression"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property Expression"
+        },
+        {
+          "name_and_arguments": [
+            "Expression"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 4,
+          "description": "property Expression"
+        },
+        {
+          "name_and_arguments": [
+            "Valid"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property Valid"
+        },
+        {
+          "name_and_arguments": [
+            "Active"
+          ],
+          "dispatch_id": 4,
+          "invoke_kind": 2,
+          "description": "property Active"
+        }
+      ]
+    },
+    {
+      "name": "FeatureSets",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_FeatureSets",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "FeatureSet",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "Models",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_Models",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "Model",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "Patterns",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_Patterns",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "Pattern",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "StockModels",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_StockModels",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "StockModel",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "Tools",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_Tools",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "Tool",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "Toolpaths",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_Toolpaths",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "Toolpath",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "Workplanes",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_Workplanes",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "Workplane",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "PowermillSystem",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_PowermillSystem",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "PowermillSys",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "Project",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_Project",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Toolpaths"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Toolpaths"
+        },
+        {
+          "name_and_arguments": [
+            "Tools"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property Tools"
+        },
+        {
+          "name_and_arguments": [
+            "Boundaries"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property Boundaries"
+        },
+        {
+          "name_and_arguments": [
+            "Workplanes"
+          ],
+          "dispatch_id": 4,
+          "invoke_kind": 2,
+          "description": "property Workplanes"
+        },
+        {
+          "name_and_arguments": [
+            "StockModels"
+          ],
+          "dispatch_id": 5,
+          "invoke_kind": 2,
+          "description": "property StockModels"
+        },
+        {
+          "name_and_arguments": [
+            "Models"
+          ],
+          "dispatch_id": 6,
+          "invoke_kind": 2,
+          "description": "property Models"
+        },
+        {
+          "name_and_arguments": [
+            "Patterns"
+          ],
+          "dispatch_id": 7,
+          "invoke_kind": 2,
+          "description": "property Patterns"
+        },
+        {
+          "name_and_arguments": [
+            "FeatureSets"
+          ],
+          "dispatch_id": 8,
+          "invoke_kind": 2,
+          "description": "property FeatureSets"
+        },
+        {
+          "name_and_arguments": [
+            "NCPrograms"
+          ],
+          "dispatch_id": 9,
+          "invoke_kind": 2,
+          "description": "property NCPrograms"
+        },
+        {
+          "name_and_arguments": [
+            "NCToolpaths"
+          ],
+          "dispatch_id": 10,
+          "invoke_kind": 2,
+          "description": "property NCToolpaths"
+        },
+        {
+          "name_and_arguments": [
+            "NCWorkplanes"
+          ],
+          "dispatch_id": 11,
+          "invoke_kind": 2,
+          "description": "property NCWorkplanes"
+        },
+        {
+          "name_and_arguments": [
+            "NCTextBlocks"
+          ],
+          "dispatch_id": 12,
+          "invoke_kind": 2,
+          "description": "property NCTextBlocks"
+        },
+        {
+          "name_and_arguments": [
+            "MachineTools"
+          ],
+          "dispatch_id": 13,
+          "invoke_kind": 2,
+          "description": "property MachineTools"
+        },
+        {
+          "name_and_arguments": [
+            "Features"
+          ],
+          "dispatch_id": 14,
+          "invoke_kind": 2,
+          "description": "property Features"
+        },
+        {
+          "name_and_arguments": [
+            "Levels"
+          ],
+          "dispatch_id": 15,
+          "invoke_kind": 2,
+          "description": "property Levels"
+        }
+      ]
+    },
+    {
+      "name": "_NCPrograms",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "NCProgram",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "_NCToolpaths",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "NCToolpath",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "_NCWorkplanes",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "NCWorkplane",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "_NCTextBlocks",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "NCTextBlock",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "_MachineTools",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "MachineTool",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "_Features",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "Feature",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "_Levels",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "Level",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "BoundaryEditHistorys",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_BoundaryEditHistorys",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "BoundaryEditHistory",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "ToolpathEditHistorys",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_ToolpathEditHistorys",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Item",
+            "index"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Item - zero-based"
+        },
+        {
+          "name_and_arguments": [
+            "Count"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Count"
+        },
+        {
+          "name_and_arguments": [
+            "_NewEnum"
+          ],
+          "dispatch_id": -4,
+          "invoke_kind": 2,
+          "description": "property _NewEnum"
+        }
+      ]
+    },
+    {
+      "name": "ToolpathEditHistory",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Name"
+          ],
+          "dispatch_id": 0,
+          "invoke_kind": 4,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "NamePar"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property NamePar"
+        },
+        {
+          "name_and_arguments": [
+            "ID"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 2,
+          "description": "property ID"
+        },
+        {
+          "name_and_arguments": [
+            "RootType"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 2,
+          "description": "property RootType"
+        }
+      ]
+    },
+    {
+      "name": "NCPrograms",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "NCToolpaths",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "NCWorkplanes",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "NCTextBlocks",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "MachineTools",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "Features",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "Levels",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "PluginServices",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "IPluginServices",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "DoCommand",
+            "Token",
+            "Command",
+            "pErrorCode"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method DoCommand"
+        },
+        {
+          "name_and_arguments": [
+            "DoCommandEx",
+            "Token",
+            "Command",
+            "pResponse",
+            "pErrorCode"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": "method DoCommandEx"
+        },
+        {
+          "name_and_arguments": [
+            "InsertCommand",
+            "Token",
+            "Command",
+            "pErrorCode"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": "method InsertCommand"
+        },
+        {
+          "name_and_arguments": [
+            "StartProgressBreak",
+            "Token",
+            "Message"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": "method StartProgressBreak"
+        },
+        {
+          "name_and_arguments": [
+            "UpdateProgressBreak",
+            "Token",
+            "PercentComplete",
+            "pBreakCalculation"
+          ],
+          "dispatch_id": 1610678276,
+          "invoke_kind": 1,
+          "description": "method UpdateProgressBreak"
+        },
+        {
+          "name_and_arguments": [
+            "EndProgressBreak",
+            "Token"
+          ],
+          "dispatch_id": 1610678277,
+          "invoke_kind": 1,
+          "description": "method EndProgressBreak"
+        },
+        {
+          "name_and_arguments": [
+            "AppendPluginLog",
+            "Token",
+            "Message"
+          ],
+          "dispatch_id": 1610678278,
+          "invoke_kind": 1,
+          "description": "method AppendPluginLog"
+        },
+        {
+          "name_and_arguments": [
+            "SubscribeToEvent",
+            "Token",
+            "EventName",
+            "SubscriptionID"
+          ],
+          "dispatch_id": 1610678279,
+          "invoke_kind": 1,
+          "description": "method SubscribeToEvent"
+        },
+        {
+          "name_and_arguments": [
+            "SubscribeToFilteredEvent",
+            "Token",
+            "EventName",
+            "FilterField",
+            "FilterValue",
+            "SubscriptionID"
+          ],
+          "dispatch_id": 1610678280,
+          "invoke_kind": 1,
+          "description": "method SubscribeToFilteredEvent"
+        },
+        {
+          "name_and_arguments": [
+            "UnsubscribeFromEvent",
+            "Token",
+            "SubscriptionID"
+          ],
+          "dispatch_id": 1610678281,
+          "invoke_kind": 1,
+          "description": "method UnsubscribeFromEvent"
+        },
+        {
+          "name_and_arguments": [
+            "EventList",
+            "pEventList"
+          ],
+          "dispatch_id": 1610678282,
+          "invoke_kind": 2,
+          "description": "property EventList"
+        },
+        {
+          "name_and_arguments": [
+            "Project",
+            "pVal"
+          ],
+          "dispatch_id": 1610678283,
+          "invoke_kind": 2,
+          "description": "property Project"
+        },
+        {
+          "name_and_arguments": [
+            "RequestInformation",
+            "InfoName",
+            "pInfo"
+          ],
+          "dispatch_id": 1610678284,
+          "invoke_kind": 1,
+          "description": "method RequestInformation"
+        },
+        {
+          "name_and_arguments": [
+            "InformationList",
+            "pInfoList"
+          ],
+          "dispatch_id": 1610678285,
+          "invoke_kind": 2,
+          "description": "property InformationList"
+        },
+        {
+          "name_and_arguments": [
+            "CheckPAF",
+            "ProductName",
+            "pStatus",
+            "pNumDays",
+            "pScodeRetVal"
+          ],
+          "dispatch_id": 1610678286,
+          "invoke_kind": 1,
+          "description": "method CheckPAF"
+        },
+        {
+          "name_and_arguments": [
+            "Busy",
+            "pVal"
+          ],
+          "dispatch_id": 1610678287,
+          "invoke_kind": 2,
+          "description": "property Busy"
+        },
+        {
+          "name_and_arguments": [
+            "CommandWindowMessage",
+            "Message"
+          ],
+          "dispatch_id": 1610678288,
+          "invoke_kind": 1,
+          "description": "method CommandWindowMessage"
+        },
+        {
+          "name_and_arguments": [
+            "QueueCommand",
+            "Token",
+            "Command"
+          ],
+          "dispatch_id": 1610678289,
+          "invoke_kind": 1,
+          "description": "method QueueCommand"
+        },
+        {
+          "name_and_arguments": [
+            "GetParameterValue",
+            "Token",
+            "ParameterName",
+            "pValue"
+          ],
+          "dispatch_id": 1610678290,
+          "invoke_kind": 1,
+          "description": "method GetParameterValue"
+        },
+        {
+          "name_and_arguments": [
+            "Translate",
+            "English",
+            "pTranslation"
+          ],
+          "dispatch_id": 1610678291,
+          "invoke_kind": 1,
+          "description": "method Translate"
+        },
+        {
+          "name_and_arguments": [
+            "AdjustPaneHeight",
+            "Token",
+            "PaneIndex",
+            "Height"
+          ],
+          "dispatch_id": 1610678292,
+          "invoke_kind": 1,
+          "description": "method AdjustPaneHeight"
+        },
+        {
+          "name_and_arguments": [
+            "GetParameterValueTerse",
+            "Token",
+            "ParameterName",
+            "pValue"
+          ],
+          "dispatch_id": 1610678293,
+          "invoke_kind": 1,
+          "description": "method GetParameterValueTerse"
+        },
+        {
+          "name_and_arguments": [
+            "LatestEvent",
+            "EventName",
+            "Position",
+            "pEventData"
+          ],
+          "dispatch_id": 1610678294,
+          "invoke_kind": 1,
+          "description": "method LatestEvent"
+        },
+        {
+          "name_and_arguments": [
+            "AdjustTabHeight",
+            "Token",
+            "TabIndex",
+            "Height"
+          ],
+          "dispatch_id": 1610678295,
+          "invoke_kind": 1,
+          "description": "method AdjustTabHeight"
+        },
+        {
+          "name_and_arguments": [
+            "ScaleWithDPI",
+            "Token",
+            "Enable"
+          ],
+          "dispatch_id": 1610678296,
+          "invoke_kind": 1,
+          "description": "method ScaleWithDPI"
+        },
+        {
+          "name_and_arguments": [
+            "GetParameterXML",
+            "parameter",
+            "pXmlRetVal"
+          ],
+          "dispatch_id": 1610678297,
+          "invoke_kind": 1,
+          "description": "method GetParameterXML"
+        },
+        {
+          "name_and_arguments": [
+            "Break"
+          ],
+          "dispatch_id": 1610678298,
+          "invoke_kind": 1,
+          "description": "method Break"
+        },
+        {
+          "name_and_arguments": [
+            "StartRibbonEntry",
+            "Token",
+            "Type",
+            "Name"
+          ],
+          "dispatch_id": 1610678299,
+          "invoke_kind": 1,
+          "description": "method StartRibbonEntry"
+        },
+        {
+          "name_and_arguments": [
+            "SetRibbonEntryResource",
+            "Token",
+            "Key",
+            "Value"
+          ],
+          "dispatch_id": 1610678300,
+          "invoke_kind": 1,
+          "description": "method SetRibbonEntryResource"
+        },
+        {
+          "name_and_arguments": [
+            "EndRibbonEntry"
+          ],
+          "dispatch_id": 1610678301,
+          "invoke_kind": 1,
+          "description": "method EndRibbonEntry"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPlugin",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "PreInitialise",
+            "locale"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method PreInitialise"
+        },
+        {
+          "name_and_arguments": [
+            "Initialise",
+            "Token",
+            "pServices",
+            "ParentWindow"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": "method Initialise"
+        },
+        {
+          "name_and_arguments": [
+            "Uninitialise"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": "method Uninitialise"
+        },
+        {
+          "name_and_arguments": [
+            "Name",
+            "pVal"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 2,
+          "description": "property Name"
+        },
+        {
+          "name_and_arguments": [
+            "Version",
+            "pMajor",
+            "pMinor",
+            "pIssue"
+          ],
+          "dispatch_id": 1610678276,
+          "invoke_kind": 1,
+          "description": "method Version"
+        },
+        {
+          "name_and_arguments": [
+            "MinPowerMILLVersion",
+            "pMajor",
+            "pMinor",
+            "pIssue"
+          ],
+          "dispatch_id": 1610678277,
+          "invoke_kind": 1,
+          "description": "method MinPowerMILLVersion"
+        },
+        {
+          "name_and_arguments": [
+            "Description",
+            "pVal"
+          ],
+          "dispatch_id": 1610678278,
+          "invoke_kind": 2,
+          "description": "property Description"
+        },
+        {
+          "name_and_arguments": [
+            "Author",
+            "pVal"
+          ],
+          "dispatch_id": 1610678279,
+          "invoke_kind": 2,
+          "description": "property Author"
+        },
+        {
+          "name_and_arguments": [
+            "HasOptions",
+            "pVal"
+          ],
+          "dispatch_id": 1610678280,
+          "invoke_kind": 2,
+          "description": "property HasOptions"
+        },
+        {
+          "name_and_arguments": [
+            "DisplayOptions"
+          ],
+          "dispatch_id": 1610678281,
+          "invoke_kind": 1,
+          "description": "method DisplayOptions"
+        },
+        {
+          "name_and_arguments": [
+            "PluginIconBitmap",
+            "pFormat",
+            "pPixelData",
+            "pWidth",
+            "pHeight"
+          ],
+          "dispatch_id": 1610678282,
+          "invoke_kind": 1,
+          "description": "method PluginIconBitmap - should be 32 x 32 pixels"
+        },
+        {
+          "name_and_arguments": [
+            "SerializeProjectData",
+            "Path",
+            "Saving"
+          ],
+          "dispatch_id": 1610678283,
+          "invoke_kind": 1,
+          "description": "method SerializeProjectData"
+        },
+        {
+          "name_and_arguments": [
+            "ProcessEvent",
+            "EventData"
+          ],
+          "dispatch_id": 1610678284,
+          "invoke_kind": 1,
+          "description": "method ProcessEvent"
+        },
+        {
+          "name_and_arguments": [
+            "ProcessCommand",
+            "Command"
+          ],
+          "dispatch_id": 1610678285,
+          "invoke_kind": 1,
+          "description": "method ProcessCommand"
+        }
+      ]
+    },
+    {
+      "name": "PluginBitmapFormat",
+      "type_kind": 0,
+      "members": []
+    },
+    {
+      "name": "IPowerMILLPluginSurrogate",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "SelectInstance",
+            "plugin_clsid"
+          ],
+          "dispatch_id": 1610743808,
+          "invoke_kind": 1,
+          "description": "method SelectInstance"
+        },
+        {
+          "name_and_arguments": [
+            "SelectedInstance",
+            "plugin_clsid"
+          ],
+          "dispatch_id": 1610743809,
+          "invoke_kind": 1,
+          "description": "method SelectedInstance"
+        },
+        {
+          "name_and_arguments": [
+            "CreateInstance"
+          ],
+          "dispatch_id": 1610743810,
+          "invoke_kind": 1,
+          "description": "method CreateInstance"
+        },
+        {
+          "name_and_arguments": [
+            "KillInstance"
+          ],
+          "dispatch_id": 1610743811,
+          "invoke_kind": 1,
+          "description": "method KillInstance"
+        },
+        {
+          "name_and_arguments": [
+            "DynamicQueryInterface",
+            "riid"
+          ],
+          "dispatch_id": 1610743812,
+          "invoke_kind": 1,
+          "description": "method DynamicQueryInterface"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPluginPane",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "NumberOfPanes",
+            "pNumberPanes"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method NumberOfPanes"
+        },
+        {
+          "name_and_arguments": [
+            "PaneHeight",
+            "PaneIndex",
+            "Height"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": "method PaneHeight"
+        },
+        {
+          "name_and_arguments": [
+            "MinimumPaneWidth",
+            "PaneIndex",
+            "width"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": "method MinimumPaneWidth"
+        },
+        {
+          "name_and_arguments": [
+            "PaneTitle",
+            "PaneIndex",
+            "title"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": "method PaneTitle"
+        },
+        {
+          "name_and_arguments": [
+            "InitialisePane",
+            "PaneIndex",
+            "ParentWindow",
+            "width",
+            "Height"
+          ],
+          "dispatch_id": 1610678276,
+          "invoke_kind": 1,
+          "description": "method InitialisePane"
+        },
+        {
+          "name_and_arguments": [
+            "PaneResized",
+            "PaneIndex",
+            "width",
+            "Height"
+          ],
+          "dispatch_id": 1610678277,
+          "invoke_kind": 1,
+          "description": "method PaneResized"
+        },
+        {
+          "name_and_arguments": [
+            "PaneTitleBitmap",
+            "PaneIndex",
+            "pFormat",
+            "pPixelData",
+            "pWidth",
+            "pHeight"
+          ],
+          "dispatch_id": 1610678278,
+          "invoke_kind": 1,
+          "description": "method PaneTitleBitmap -  should be 24 x 24 pixels"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPluginQueryValue",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryValue",
+            "value_name",
+            "Value"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method QueryValue"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPluginLicensable",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "RequiredLicenses",
+            "licenses"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method RequiredLicenses"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPluginTranslatable",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "TranslationServices",
+            "pServices"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method TranslationServices"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPluginTab",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "NumberOfTabs",
+            "pNumberTabs"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method NumberOfTabs"
+        },
+        {
+          "name_and_arguments": [
+            "MinimumTabHeight",
+            "TabIndex",
+            "Height"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": "method MinimumTabWidth"
+        },
+        {
+          "name_and_arguments": [
+            "TabTitle",
+            "TabIndex",
+            "title"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": "method TabTitle"
+        },
+        {
+          "name_and_arguments": [
+            "InitialiseTab",
+            "TabIndex",
+            "ParentWindow",
+            "width",
+            "Height"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": "method InitialiseTab"
+        },
+        {
+          "name_and_arguments": [
+            "TabResized",
+            "TabIndex",
+            "width",
+            "Height"
+          ],
+          "dispatch_id": 1610678276,
+          "invoke_kind": 1,
+          "description": "method TabResized"
+        },
+        {
+          "name_and_arguments": [
+            "TabTitleBitmap",
+            "TabIndex",
+            "pFormat",
+            "pPixelData",
+            "pWidth",
+            "pHeight"
+          ],
+          "dispatch_id": 1610678277,
+          "invoke_kind": 1,
+          "description": "method TabTitleBitmap -  should be 24 x 24 pixels"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPluginSpaceball",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "SpaceballMotion",
+            "X",
+            "Y",
+            "Z",
+            "RX",
+            "RY",
+            "RZ",
+            "pHandled"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method SpaceballMotion"
+        },
+        {
+          "name_and_arguments": [
+            "SpaceballButtonDown",
+            "Button",
+            "pHandled"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": "method SpaceballButtonDown"
+        },
+        {
+          "name_and_arguments": [
+            "SpaceballButtonUp",
+            "Button",
+            "pHandled"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": "method SpaceballButtonUp"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPluginVersionable",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "PowerMILLVersionSuitable",
+            "Major",
+            "Minor",
+            "Issue",
+            "Codebase",
+            "pMessage",
+            "pSuitable"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method PowerMILLVersionSuitable"
+        }
+      ]
+    },
+    {
+      "name": "IPowerMILLPluginRibbonTab",
+      "type_kind": 3,
+      "members": [
+        {
+          "name_and_arguments": [
+            "DefineTranslatedRibbon"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": "method DefineTranslatedRibbon"
+        }
+      ]
+    },
+    {
+      "name": "Application",
+      "type_kind": 5,
+      "members": []
+    },
+    {
+      "name": "_Application",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Visible"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property Visible"
+        },
+        {
+          "name_and_arguments": [
+            "Visible"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 4,
+          "description": "property Visible"
+        },
+        {
+          "name_and_arguments": [
+            "Exit"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 1,
+          "description": "method Exit - deprecated - use Quit instead"
+        },
+        {
+          "name_and_arguments": [
+            "Execute",
+            "Command",
+            "pErrorCode"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 1,
+          "description": "method Execute - deprecated - use DoCommand instead"
+        },
+        {
+          "name_and_arguments": [
+            "ExecuteEx",
+            "Command",
+            "pErrorCode",
+            "pResponse"
+          ],
+          "dispatch_id": 4,
+          "invoke_kind": 1,
+          "description": "method ExecuteEx - deprecated - use DoCommandEx instead"
+        },
+        {
+          "name_and_arguments": [
+            "WindowState"
+          ],
+          "dispatch_id": 5,
+          "invoke_kind": 2,
+          "description": "property WindowState"
+        },
+        {
+          "name_and_arguments": [
+            "WindowState"
+          ],
+          "dispatch_id": 5,
+          "invoke_kind": 4,
+          "description": "property WindowState"
+        },
+        {
+          "name_and_arguments": [
+            "Version"
+          ],
+          "dispatch_id": 6,
+          "invoke_kind": 2,
+          "description": "property Version"
+        },
+        {
+          "name_and_arguments": [
+            "Busy"
+          ],
+          "dispatch_id": 7,
+          "invoke_kind": 2,
+          "description": "property Busy"
+        },
+        {
+          "name_and_arguments": [
+            "GuiState"
+          ],
+          "dispatch_id": 8,
+          "invoke_kind": 2,
+          "description": "property GuiState"
+        },
+        {
+          "name_and_arguments": [
+            "GuiState"
+          ],
+          "dispatch_id": 8,
+          "invoke_kind": 4,
+          "description": "property GuiState"
+        },
+        {
+          "name_and_arguments": [
+            "DoCommand",
+            "Command"
+          ],
+          "dispatch_id": 9,
+          "invoke_kind": 1,
+          "description": "method DoCommand"
+        },
+        {
+          "name_and_arguments": [
+            "DoCommandEx",
+            "Command",
+            "pResponse"
+          ],
+          "dispatch_id": 10,
+          "invoke_kind": 1,
+          "description": "method DoCommandEx"
+        },
+        {
+          "name_and_arguments": [
+            "CheckPAF",
+            "ProductName",
+            "pStatus",
+            "pNumDays"
+          ],
+          "dispatch_id": 11,
+          "invoke_kind": 1,
+          "description": "method CheckPAF"
+        },
+        {
+          "name_and_arguments": [
+            "Project"
+          ],
+          "dispatch_id": 12,
+          "invoke_kind": 2,
+          "description": "property Project"
+        },
+        {
+          "name_and_arguments": [
+            "Quit"
+          ],
+          "dispatch_id": 13,
+          "invoke_kind": 1,
+          "description": "method Quit"
+        },
+        {
+          "name_and_arguments": [
+            "Debug"
+          ],
+          "dispatch_id": 14,
+          "invoke_kind": 2,
+          "description": "property Debug"
+        },
+        {
+          "name_and_arguments": [
+            "PowerSHAPEConnection"
+          ],
+          "dispatch_id": 15,
+          "invoke_kind": 2,
+          "description": "property PowerSHAPEConnection"
+        },
+        {
+          "name_and_arguments": [
+            "ParentWindow"
+          ],
+          "dispatch_id": 16,
+          "invoke_kind": 2,
+          "description": "property ParentWindow"
+        },
+        {
+          "name_and_arguments": [
+            "EnablePlugins"
+          ],
+          "dispatch_id": 17,
+          "invoke_kind": 1,
+          "description": "method EnablePlugins"
+        },
+        {
+          "name_and_arguments": [
+            "GetParameterXML",
+            "parameter"
+          ],
+          "dispatch_id": 18,
+          "invoke_kind": 1,
+          "description": "method GetParameterXML"
+        },
+        {
+          "name_and_arguments": [
+            "Break"
+          ],
+          "dispatch_id": 19,
+          "invoke_kind": 1,
+          "description": "method Break"
+        }
+      ]
+    },
+    {
+      "name": "Debug",
+      "type_kind": 4,
+      "members": [
+        {
+          "name_and_arguments": [
+            "QueryInterface",
+            "riid",
+            "ppvObj"
+          ],
+          "dispatch_id": 1610612736,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "AddRef"
+          ],
+          "dispatch_id": 1610612737,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Release"
+          ],
+          "dispatch_id": 1610612738,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfoCount",
+            "pctinfo"
+          ],
+          "dispatch_id": 1610678272,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetTypeInfo",
+            "itinfo",
+            "lcid",
+            "pptinfo"
+          ],
+          "dispatch_id": 1610678273,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "GetIDsOfNames",
+            "riid",
+            "rgszNames",
+            "cNames",
+            "lcid",
+            "rgdispid"
+          ],
+          "dispatch_id": 1610678274,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "Invoke",
+            "dispidMember",
+            "riid",
+            "lcid",
+            "wFlags",
+            "pdispparams",
+            "pvarResult",
+            "pexcepinfo",
+            "puArgErr"
+          ],
+          "dispatch_id": 1610678275,
+          "invoke_kind": 1,
+          "description": null
+        },
+        {
+          "name_and_arguments": [
+            "ProcessID"
+          ],
+          "dispatch_id": 1,
+          "invoke_kind": 2,
+          "description": "property ProcessID"
+        },
+        {
+          "name_and_arguments": [
+            "Set",
+            "DebugCode",
+            "OnOff"
+          ],
+          "dispatch_id": 2,
+          "invoke_kind": 1,
+          "description": "method Set"
+        },
+        {
+          "name_and_arguments": [
+            "Reset",
+            "DebugCode"
+          ],
+          "dispatch_id": 3,
+          "invoke_kind": 1,
+          "description": "method Reset"
+        }
+      ]
+    }
+  ]
+}

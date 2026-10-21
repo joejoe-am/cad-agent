@@ -1,0 +1,37 @@
+[
+  {
+    "file": "2027/automation-interface.json",
+    "bytes": 137761,
+    "sha256": "1fd3e64148e94fdbbba9151e471bbece9f7610083619bebc433e7e49cdf3034f",
+    "source": "C:\\Program Files\\Autodesk\\PowerMill 2027\\sys\\exec64\\pmill.exe",
+    "acquired_at_utc": "2026-10-19T19:20:22.008483+00:00"
+  },
+  {
+    "file": "2027/PowerMILL_plugin_quickstart_guide_CS_v1.pdf",
+    "bytes": 114275,
+    "sha256": "6a08e9059ea2307cb7318a6dd9751f5d119bc71f16958083228ec2108b2d4268",
+    "source": "C:\\Program Files\\Autodesk\\PowerMill 2027\\file\\plugins\\documentation\\PowerMILL_plugin_quickstart_guide_CS_v1.pdf",
+    "acquired_at_utc": "2026-10-19T19:20:22.008946+00:00"
+  },
+  {
+    "file": "2027/PowerMILL_plugin_quickstart_guide_VB_v1.pdf",
+    "bytes": 114789,
+    "sha256": "6c1dbb7c37c96d0a43f5a582cd70fe1eb884863073f42d536fc6445bf03a09ba",
+    "source": "C:\\Program Files\\Autodesk\\PowerMill 2027\\file\\plugins\\documentation\\PowerMILL_plugin_quickstart_guide_VB_v1.pdf",
+    "acquired_at_utc": "2026-10-19T19:20:22.009362+00:00"
+  },
+  {
+    "file": "2027/Writing_a_PowerMILL_plugin_v6.pdf",
+    "bytes": 3372767,
+    "sha256": "2eef01ae0eb43c62482199e78b5e4eaff3b3aa69d1ef243a6a8d42e414141377",
+    "source": "C:\\Program Files\\Autodesk\\PowerMill 2027\\file\\plugins\\documentation\\Writing_a_PowerMILL_plugin_v6.pdf",
+    "acquired_at_utc": "2026-10-19T19:20:22.014027+00:00"
+  },
+  {
+    "file": "reference-2024/macro-programming-guide.pdf",
+    "bytes": 1431500,
+    "sha256": "6c9a27f70e8261a716efd02a049557d2106c82e8e4941cf6e4ef4d5c5cff990d",
+    "source": "https://damassets.autodesk.net/content/dam/autodesk/external-assets/support-articles/powermill-2024-offline-help-and-macros-and-plugin-documentation/pm-macro-programming-guide.pdf",
+    "acquired_at_utc": "2026-10-19T19:20:22.015878+00:00"
+  }
+]

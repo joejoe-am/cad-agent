@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools>=77"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cad-agent"
+version = "0.4.0"
+description = "Local Python workspace for agent-driven SolidWorks automation"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pywin32>=308; sys_platform == 'win32'",
+    "pydantic>=2,<3",
+    "Pillow>=11,<14",
+    "langgraph>=1.2,<2",
+    "langgraph-checkpoint-sqlite>=3.1,<4",
+]
+
+[project.scripts]
+cad-agent = "cad_agent.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+"cad_agent.resources" = ["*.md"]
+"cad_agent.desktop" = ["assets/*", "assets/static/*"]
+
+[project.optional-dependencies]
+dev = ["ruff>=0.11,<1", "build>=1,<2"]
+desktop = ["pywebview>=6,<8"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 110
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

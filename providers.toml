@@ -1,0 +1,22 @@
+default_provider = "codex"
+
+[providers.codex]
+mode = "workspace"
+
+[providers.openai]
+model = ""
+supports_images = false
+api_key_env = "OPENAI_API_KEY"
+max_output_tokens = 12000
+
+[providers.anthropic]
+model = ""
+supports_images = false
+api_key_env = "ANTHROPIC_API_KEY"
+max_output_tokens = 12000
+
+[providers.openrouter]
+model = ""
+supports_images = false
+api_key_env = "OPENROUTER_API_KEY"
+max_output_tokens = 12000
