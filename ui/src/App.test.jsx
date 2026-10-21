@@ -47,7 +47,7 @@ beforeEach(() => {
 });
 
 describe("desktop chat", () => {
-  it("copies the full message including line breaks", async () => {
+  it("copies the full message including line breaks and confirms on the button", async () => {
     const user = userEvent.setup();
     view.messages = [
       { id: "m", role: "error", content: "First line\nC:\\CAD\\response.json" },
@@ -57,7 +57,34 @@ describe("desktop chat", () => {
       await screen.findByRole("button", { name: "Copy message" }),
     );
     expect(await navigator.clipboard.readText()).toBe(view.messages[0].content);
-    expect(screen.getByText("Message copied")).toBeInTheDocument();
+    // Confirmation stays on the control; copying must not take the toast slot.
+    expect(
+      await screen.findByRole("button", { name: "Message copied" }),
+    ).toHaveTextContent("Copied");
+  });
+
+  it("keeps the composer usable while copying a message", async () => {
+    const user = userEvent.setup();
+    view.messages = [{ id: "m", role: "assistant", content: "Ready" }];
+    render(<App />);
+    await user.click(
+      await screen.findByRole("button", { name: "Copy message" }),
+    );
+    expect(screen.getByRole("textbox", { name: "Message" })).not.toBeDisabled();
+  });
+
+  it("copies a tool result without expanding or collapsing it", async () => {
+    const user = userEvent.setup();
+    view.messages = [
+      { id: "m", role: "tool", content: "run_job", detail: { returncode: 0 } },
+    ];
+    render(<App />);
+    const copy = await screen.findByRole("button", { name: "Copy message" });
+    const section = copy.closest("details");
+    expect(section.open).toBe(false);
+    await user.click(copy);
+    expect(section.open).toBe(false);
+    expect(await navigator.clipboard.readText()).toContain("run_job");
   });
   it("deletes a chat only after confirmation and clears the selection", async () => {
     const user = userEvent.setup();

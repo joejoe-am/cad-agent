@@ -29,7 +29,11 @@ IDE settings. Back up local model archives separately from source control.
 See docs/architecture.md and docs/providers.md before changing workflow behavior.
 
 Desktop/session behavior is documented in docs/desktop-and-sessions.md. Frontend
-source lives in ui/: use Node.js 24, `npm ci`, `npm test`, `npm run format:check`
+source lives in ui/: components under src/components/, shared helpers in src/lib/,
+and one stylesheet. Colours come from the design tokens declared in the `:root`
+block of src/style.css; add a token rather than a new hex literal, and reuse the
+closest existing swatch before introducing one. Use Node.js 24, `npm ci`,
+`npm test`, `npm run format:check`
 and `npm run build`. Build the UI before `python -m build` so wheels include its
 assets. Use `pip install -e ".[api,desktop,dev]"` for native desktop development.
 There is no hosted CI: run the checks in README.md before pushing.
